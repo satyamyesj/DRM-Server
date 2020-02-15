@@ -1,5 +1,5 @@
 //localhost
-/*var mysql = require('mysql');
+var mysql = require('mysql');
 
 var connection = mysql.createConnection({
   host: "localhost",
@@ -19,10 +19,10 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-module.exports=connection*/
+module.exports=connection
 
 //remotemysql.com
-var mysql = require('mysql');
+/*var mysql = require('mysql');
 
 var connection = mysql.createConnection({
   host: "remotemysql.com",
@@ -42,4 +42,4 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-module.exports=connection
+module.exports=connection*/
