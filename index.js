@@ -42,6 +42,8 @@ app.use('/api/get_file', require('./routes/api/get_file'))
 app.use('/api/post_file', require('./routes/api/post_file'))
 //file user registration
 app.use('/api/file_user_registration', require('./routes/api/file_user_registration'))
+//file user login
+app.use('/api/file_user_login', require('./routes/api/file_user_login'))
 
 //ACCEPT REQUEST
 app.listen(PORT, () => {

@@ -4,7 +4,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "@netHost80",
+  password: "root123",
   database:"drm",
   queryFormat: function(query, values) {
     if (!values) return query;
